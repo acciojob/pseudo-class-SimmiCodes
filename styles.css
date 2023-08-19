@@ -1,19 +1,16 @@
 /*  your css code here. If applicable */
-#container{
+.container{
 	margin:20px;
-	padding:relative;
 }
-#container::before{
-	content: "Before Content";
+.container::before{
+	content: "Before Element";
 	color: #f00;
 	font-size: 20px;
-	position: absolute;
-	top: -30px;
+	
 }
-#container::after {
-  content: "After Content";
+.container::after {
+  content: "After Element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
-  bottom: -30px;
+  
 }
